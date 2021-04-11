@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>
+    Welcome to my site!
+    </title>
+
+    <style>
+    *{
+        margin:10px;
+        box-sizing: border-box;
+    }
+    
+     .nav{
+        background-color: #7A0300;
+        width: auto;
+        overflow: hidden;
+        border-radius: 20px;
+        padding:5px;
+        margin:20px;
+    }
+    .nav a {
+       color: #f2f2f2; 
+        text-decoration:none;
+        margin:10px;
+        display: block;
+        padding:5px 20px;
+        float:left;
+    }
+    .nav a:hover {
+        color:red;
+        background-color:violet;
+    }
+
+      .column1 {
+  float: left;
+  width: 25%;
+   }
+
+
+
+    .column2 {
+  width: 75%;
+  padding: 20px;
+   }
+
+
+   .row:after {
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+ .header {
+   background-color:#CDCDCD;
+  color:#800000;
+  text-align: center;
+  height:auto;
+  }
+
+ @media screen and (max-width:600px) {
+  .column1, .column2, .header{
+    width: 100%;
+  }
+}
+
+
+     .body {
+         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+    footer {
+  padding: 3px;
+  background-color: #7A0300;
+  color: white;
+    }
+
+      table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+.button {
+  border: 2px solid black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button1{
+background-color:green;
+}
+.button2{
+background-color:red;
+pointer-events: none; 
+}
+
+.button1:hover {background-color: #4CAF50;} 
+
+.button2:hover {background-color: #008CBA;}
+
+    </style>
+
+</head>
+
+
+
+
+<body>
+<div class="header">
+<div class="row">
+
+  <div class="column1">
+    <img src="vitap_logo.jpg" style="float:left; width:50%; ">  
+  </div>
+  
+  <div class="column2">
+    <h1> VELLORE INSTITUTE OF TECHNOLOGY - AP UNIVERSITY </h1>
+  </div>
+
+</div>
+
+</div>
+
+<div class="nav">
+<a  href="Home.html">Home</a>
+<a href="Department.html">Departments</a>
+<a  href="Students.html">Students</a>
+<a   href="Placement.html">Placements</a>
+<a  href="Alumni.html">Alumni</a>
+<a  href="Contact-us.html">Contact-us</a>
+<a  href="http://vtop2.vitap.ac.in:8070/vtop/initialProcess">VTOP Student Login</a>
+</div>
+<br>
+  <H2 style="margin-bottom:50px; text-align:center;"> <b> PLACEMENT UPDATES </b> </H2>
+
+<table style="width:92%; margin:5%;">
+    <tr>
+    <th>Job Details</th>
+    <th> Company website </th> 
+    <th>Stream </th>
+    <th>Campus Date</th>
+    <th>Apply Date</th>
+    <th>Status </th>
+  </tr>
+
+    <tr>   
+    <td>Summer Internship UBS</td>
+    <td> <a href=https://www.ubs.com/in/en.html> https://www.ubs.com/in/en.html </a> </td>
+    <td> All Streams of BTech & MTech</td>
+    <td> Not Specified </td>
+    <td> 19 April 2021 - 12:00 </td>
+    <td> <button class="button button1">Open</button> </td>
+    
+  </tr>
+
+   <tr>   
+    <td>Dream Internship Kristal</td>
+      <td> <a href=https://kristal.ai/ > https://kristal.ai/ </a> </td>
+    <td>CSE all specializations </td>
+    <td> 21 April 2021</td>
+    <td> 12 April 2021 - 10:00 </td>
+    <td> <button class="button button1">Open</button> </td>
+  </tr>
+
+  
+   <tr>   
+    <td> Dream Internship Cerner Healthcare </td>
+    <td> <a href=https://www.cerner.com/> https://www.cerner.com/ </a> </td>
+    <td> MTech All Streams </td>
+    <td> Not Specified </td>
+    <td> 09 April 2021 - 11:00 </td>
+    <td> <button class="button button1">Open</button> </td>
+  </tr>
+
+   <tr>   
+    <td> Nokia Dream Internship </td>
+    <td> <a href=https://www.nokia.com/> https://www.nokia.com/ </a> </td>
+    <td> BTech only CSE & IT Streams </td>
+    <td> 15 March 2021 </td>
+    <td> 08 March 2021 - 10:00 </td>
+    <td> <button class="button button2">Closed</button> </td>
+  </tr>
+
+  <tr>   
+    <td>Super Dream software internship, Vocera Communications India Pvt Ltd</td>
+    <td> <a href=https://www.vocera.com/ > https://www.vocera.com/ </a> </td>
+    <td> MTECH & BTech only CSE & IT Streams </td>
+    <td> Not Specified </td>
+    <td> 05 April 2021 - 10:00 </td>
+    <td> <button class="button button2">CLosed</button> </td>
+  </tr>
+
+    <tr>   
+    <td> super Dream core internship VESTAS</td>
+    <td> <a href=https://www.vestas.com/> https://www.vestas.com/ </a> </td>
+    <td>  All Streams of BTech & MTech </td>
+    <td> 11 April 2021 </td>
+    <td> 03 April 2021 - 18:00 </td>
+    <td> <button class="button button2">CLosed</button> </td>
+
+  </tr>
+
+
+ 
+
+
+ 
+
+ 
+</table>
+
+
+<footer>
+  <p>Beside AP Secretariat, Near Vijayawada, 522237, Andhra Pradesh.</p>
+</footer>
+
+</body>
+</html>
